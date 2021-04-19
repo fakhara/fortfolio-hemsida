@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/c67e4fceb2.js"></script>
+    <title>Personal Portfolio</title>
+    <link href="image/favicon.png" rel="icon">
+</head>
+<body>
+    <section>
+        <!--Navigation-->
+        <nav>
+            <!--Logo-->
+            <a href="#" class="logo">Fakhara Imran</a>
+            <!--Menu-->
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                
+            </ul>
+            <!--Bars-->
+            <div class="toggle"></div>
+        </nav>
+        <!--Text-->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'M Fakhara</p>
+            <p>I am Frontend Developer  <br>& Web Developer</p>
+            <button class="hire-btn">Hire Me</button>
+            <button class="down-cv">Download CV</button>
+        </div>
+        <!--Model-->
+         <img src="image/1554755106440.jfif" class="model" alt="model">
+    </section>
+    <!--About section-->
+    <div class="about-container" id="about">
+        <!--img-->
+        <img src="image/IMG_95841.png.jpg">
+        <div class="about-text">
+            <p>About Me</p>
+            <p> Developer & Designer</p>
+            <p>Hello, My name is Fakhara Imran. 
+               I am Developer and also a Designer. 
+               If you have Project or if you want make a 
+               software for your business contact me. 
+               I make as soon as possible. You really like
+               my work, if you din't i change this until 
+               you like I give you seticfaction result.</p>
+               <p>My primary goal is to apply my technical expertise throughout the software
+                to ensure the production and delivery of products and services that meet customer specifications. 
+                Together with a competent software development team and with my knowledge, skills and experience.</p>
+                <!--button-->
+                <button>Hire Me</button>
+                <button>Download CV</button>
+        </div>
+    </div>
+    <!--services-->
+    <div class="services" id="services">
+        <!--text-->
+        <div class="services-text">
+           <p>Services</p>
+           <p>Services required</p>
+           <p> Front End Developer with 1 year experience building and maintaining responsive websites 
+            in the recruiting industry. Proficient in HTML,CSS, Javascript,React:plus modern libaries 
+            and frameworks.</p>
+        </div>
+        <!--Box-->
+        <div class="box-container">
+            <!--1-->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Web Design</p>
+                <p class="details">If you want make a software for your business contact me.
+                    I make as soon as possible. You really like my work, If you don't i chande this 
+                    until you like if you want.</p>
+                    <button>Read More</button>
+            </div>
+            <!--2-->
+            <div class="box-2">'
+                <span>2</span>
+                <p class="heading">Web Development</p>
+                <p class="details">If you want make a software for your business contact me.
+                    I make as soon as possible. You really like my work, If you don't i chande this 
+                    until you like if you want.</p>
+                    <button>Read More</button>
+            </div>
+            <!--3-->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Security/SEO</p>
+                <p class="details">If you want make a software for your business contact me.
+                    I make as soon as possible. You really like my work, If you don't i chande this 
+                    until you like if you want.</p>
+                    <button>Read More</button>
+            </div>
+        </div>
+    </div>
+    <!--Contact Me-->
+    <div class="contact-me" id="contact">
+        <p>If You Have Any Projecct In Your Mind</p>
+        <button>Contact Me</button>
+    </div>
+    <!--footer-->
+    <footer>
+        <p>Fakhara Imran</p>
+        <p>I makes soon as possible. You really like my work, If you don't change this until you like I give you setisfaction result.</p>
+        <!--Social links-->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+        <!--copyright-->
+        <p class="copyright">Copyright by Fakhara Imran</p>
+    </footer>
+    <!--attached social bar-->
+    <div class="a-social-b">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <script src="js/JQuery.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function(){
+            $('.toggle').toggleClass('active')
+            $('nav').toggleClass('active')
+        })
+    });
+    </script>
+</body>
+</html>
